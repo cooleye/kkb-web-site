@@ -1,0 +1,83 @@
+# 网站标题
+title: web新职课
+# 网站标题后缀
+suffix: ''
+# 作者名称(会显示在首页文章下面)
+# author: Davie Kong
+# 首页简介（显示在首页顶部Logo的那句话）
+home_describe: 学习前端，做一个很酷的人，做一件很酷的事
+# 网站关键字
+keyword: 开课吧,新职课,web前端,IT在线直播培训教育机构,web前端培训
+is_article_img: false  #false是否开启文章背景图显示(随机图片)
+# 网站描述
+web_description: 描述
+# 导航名称
+menus_title:
+  home: 首页
+  archive: 时间轴
+  categories: 分类
+  tags: 标签
+  links: 链接
+  about: 关于
+# 导航 （不建议修改）
+menus:
+  home: /
+  archive: /archives
+  categories: /categories
+  tags: /tags
+  links: /links
+  # about: /about
+  
+# logo
+logo: /image/logo.png
+# 网页标签上那个小图标 一定要用本地存储
+icon: /image/favicon.ico
+# 每个页面上面的图表
+topIcon:
+  homeIcon: "/image/logo.png"
+  archivesIcon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
+  tagIcon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgtags.svg"
+  linksIcon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
+  categoriesIcon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgblogmyCategory.svg"
+  
+# 标签页显示多少个标签
+tagsNum: 1000
+# 网页访问统计
+web_analytics:  
+  enable: false #需要改为true
+  baidu: 4b5fe1472f22fa  # （替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
+# 底部显示的图标（github 或者其他）
+bottomIcon: 
+  #可以多个
+  - {
+    #描述名称
+    name: 'Github',
+    #图标    
+    iconLink: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png',
+    #跳转链接    
+    toUrl: 'https://github.com/cooleye'
+  }
+# 友情链接
+linksList:
+  - {
+    title: '孔老板',
+    intro: '钱端工程师 | 公号：H5Talks',
+    link: 'https://juejin.cn/user/4230576473127832',
+    image: 'https://sf1-ttcdn-tos.pstatp.com/img/user-avatar/d718782c09dfd8c31c0926ca52abd83e~300x300.image'
+  }
+  - {
+    title: '前端铁蛋',
+    intro: '一个骚包前端讲师',
+    link: 'https://space.bilibili.com/477276329?spm_id_from=333.788.b_765f7570696e666f.2',
+    image: 'https://i0.hdslb.com/bfs/face/b5ef8655175f1671236f73f44c8472d7abb6e48a.jpg@128w_128h_1o.webp'
+  }
+# 文字内点击图片放大相关配置
+picture:
+  # 蒙版的颜色也就是 打开图片背景 显示的颜色
+  colour: '#333'
+  # 透明度
+  opacity: 0.5
+  # 图片角度 就是显示图片的角度
+  imgRadius: "10px"
+#默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
+default_cover: https://api.ixiaowai.cn/gqapi/gqapi.php
